@@ -14,4 +14,4 @@ jobs:
           distribution: "temurin"
           java-version: "16"
       - name: "Clean Build"
-        run: "./gradlew clean build"
+        run: "./gradlew clean build publish"
