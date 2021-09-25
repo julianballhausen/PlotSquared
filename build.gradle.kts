@@ -165,7 +165,7 @@ allprojects {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/julianballhausen/PlotSquared")
+                url = uri("https://maven.pkg.github.com/julianballhausen/plotsquared")
                 credentials {
                     username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
                     password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
