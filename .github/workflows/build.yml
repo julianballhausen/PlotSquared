@@ -15,3 +15,6 @@ jobs:
           java-version: "16"
       - name: "Clean Build"
         run: "./gradlew clean build publish"
+        env:
+          USERNAME: "${{ github.actor }}"
+          TOKEN: "${{ secrets.GITHUB_TOKEN }}"
